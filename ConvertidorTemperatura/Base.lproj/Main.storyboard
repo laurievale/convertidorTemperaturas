@@ -48,8 +48,9 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pau-uq-OFc">
                                                 <rect key="frame" x="0.0" y="46.666666666666686" width="319" height="47"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="celciusTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -75,6 +76,7 @@
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RuI-Rv-Hgy">
                                                 <rect key="frame" x="0.0" y="46.666666666666686" width="319" height="46.666666666666657"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="fahrenheitTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -144,7 +146,7 @@
                     </view>
                     <connections>
                         <outlet property="celciusTextField" destination="Pau-uq-OFc" id="Huk-B6-yJW"/>
-                        <outlet property="farenheitTextField" destination="RuI-Rv-Hgy" id="9RQ-QY-TXU"/>
+                        <outlet property="fahrenheitTextField" destination="RuI-Rv-Hgy" id="q2J-Iz-lvN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
